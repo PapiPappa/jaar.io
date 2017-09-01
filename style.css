@@ -1,42 +1,50 @@
-html{
-  max-width: 1920px;
-  max-height: 1080px;
-  min-width: auto;
-  min-height: auto;
-  margin: 0;
-  padding: 0;
+body , html {margin: 0; padding: 0;}
+       
+video {
+top: 50%;
+left: 50%;
+position: fixed;
+min-height: 100%;
+min-width: 100%; 
+width: auto;
+height: auto;
+z-index: -100;
+filter: blur(10px);
+transform: translateX(-50%) translateY(-50%);
+background: url(https://s3.eu-central-1.amazonaws.com/jaar.io/Assets/png/JA.png) no-repeat;
+background-size: auto;
+}
+            
+svg{
+opacity: 0.7;
+position: fixed;
+display: inline-block;
+min-height: 100%; 
+min-width: 100%; 
+z-index: 1; 
 }
 
-body{
-  background-image: url(../Assets/background.png);
-  background-position: top right;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-}
-#header{
-  background-image: url(../Assets/logo.svg);
-  background-repeat: no-repeat;
-  position: sticky;
-  display: block;
-  height: 300px;
-  width: 300px;
-  margin: auto;
-  margin-top: 100px;
+#header img{
+position: relative;
+display: block;
+z-index: 2;
+margin: auto;
+padding-top: 200px;
 }
 
-#menu{
+main{
+}
+
+#footer{
 
 }
 
-#magic{
-  background-image: url(../Assets/MagicText.png);
-  background-size: contain;
-  background-repeat: no-repeat;
+#footer img{
+height: 150px;
+display: block;
+margin-left: auto;
+margin-right: auto;
+position: relative;
+z-index: 2;
 
-  display: block;
-  height: 280px;
-  width: 1100px;
-  margin: auto;
-  bottom: 0%;
-  left: 50%;
 }
