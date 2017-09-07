@@ -15,7 +15,6 @@ body{
   background-attachment: fixed;
 }
 
-<<<<<<< HEAD
 header{
   background-color: black;
   position: relative;
@@ -44,47 +43,6 @@ footer{
   width: 100%;
   height: 150px;
 }
-
-#header{
-  background-image: url(../Assets/logo.svg);
-  background-repeat: no-repeat;
-  background-position: center;
-=======
-#header{
-  background-image: url(../Assets/logo.svg);
-  background-repeat: no-repeat;
->>>>>>> 3e0993488c1f2dc5b49170ddfe86b2ce2abadd1c
-  height: 300px;
-  width: 300px;
-  left: 50%;
-  margin: auto;
-  margin-top: 40px;
-}
-
-<<<<<<< HEAD
-#project{
-background-color: black;
-width: 300px;
-left: 50%;
-margin: auto;
-=======
-#menu{
-width: 200px;
-margin: auto;
-}
-
-#menu ul{
-list-style-type: none;
-margin: 0;
-padding: 0;
->>>>>>> 3e0993488c1f2dc5b49170ddfe86b2ce2abadd1c
-}
-
-#menu ul li img{
-  width: 200px;
-  height: 54px;
-}
-
 
 #magic{
   background-image: url(../Assets/MagicText.png);
