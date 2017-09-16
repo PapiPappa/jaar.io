@@ -1,50 +1,51 @@
-body , html {margin: 0; padding: 0;}
-       
-video {
-top: 50%;
-left: 50%;
-position: fixed;
-min-height: 100%;
-min-width: 100%; 
-width: auto;
-height: auto;
-z-index: -100;
-filter: blur(10px);
-transform: translateX(-50%) translateY(-50%);
-background: url(https://s3.eu-central-1.amazonaws.com/jaar.io/Assets/png/JA.png) no-repeat;
-background-size: auto;
-}
-            
-svg{
-opacity: 0.7;
-position: fixed;
-display: inline-block;
-min-height: 100%; 
-min-width: 100%; 
-z-index: 1; 
+//Position values -> https://developer.mozilla.org/en-US/docs/Web/CSS/position#Values
+//Centering in css -> https://css-tricks.com/centering-css-complete-guide/
+html{
+  max-width: 100%;
+  max-height: 100%;
+  min-width: auto;
+  min-height: auto;
+  margin: 0;
+  padding: 0;
 }
 
-#header img{
-position: relative;
-display: block;
-z-index: 2;
-margin: auto;
-padding-top: 200px;
+body{
+  background-image: url(https://s3.eu-central-1.amazonaws.com/jaar.io/Assets/png/backgroundBlueSky);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+header{
+
+}
+
+#header{
+  width: 400px;
+  height: 400px;
+  margin: 0 auto;
+  padding-top: 20px;
+  padding-bottom: 20px;	
 }
 
 main{
+  position: relative;
+  width: 400px;
+  margin: 0 auto;
 }
 
-#footer{
-
+#portfolio{
+  width: 400px;
+  height: 100px;
+	padding-top: 50px;
+  padding-bottom: 50px;
 }
 
-#footer img{
-height: 150px;
-display: block;
-margin-left: auto;
-margin-right: auto;
-position: relative;
-z-index: 2;
+#project{
+  width: 400px;
+  height: 100px;
+}
 
+footer{
+  width: 100%;
+  height: 150px;
 }
