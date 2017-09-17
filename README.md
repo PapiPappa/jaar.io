@@ -1,4 +1,3 @@
-
 ## [The jaario project](www.jaar.io)
 
 I'll just put my code to jaario here.
